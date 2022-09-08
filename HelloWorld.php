@@ -1,7 +1,7 @@
 <?php
 
-$teller = 1;
-$maximum = 10;
+$teller = 4;
+$maximum = 6;
 $tekst = "Hello, World!\n";
 
 while ( $teller <= $maximum ) {
