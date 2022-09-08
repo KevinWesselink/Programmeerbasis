@@ -1,9 +1,12 @@
 <?php
 
-$tekst="Hallo Kevin!\n";
-$text="Je bent goed bezig.";
+$teller = 1;
+$maximum = 10;
+$tekst = "Hello, World!\n";
 
-echo $tekst;
-echo $text;
+while ( $teller <= $maximum ) {
+    echo $tekst;
 
+    $teller++;
+}
 ?>

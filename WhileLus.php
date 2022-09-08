@@ -1,9 +1,9 @@
 <?php
 
-    $teller = 1;
+    $teller = 10;
     $maximum = 8;
 
-    echo "Teller is voor de while lus".$teller. "\n";
+    echo "Teller is voor de while lus ".$teller. "\n";
 
     while ( $teller <= $maximum ) {
         echo "Teller is nu ".$teller."\n";
